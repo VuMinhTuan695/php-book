@@ -1,0 +1,24 @@
+.app {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.infor {
+    margin: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infor__header {
+    margin: 0 0 30px 0;
+}
+
+.infor__form {
+    text-align: center;
+    width: 300px;
+}
+
+.infor__group + .infor__group {
+    margin: 20px 0;
+}

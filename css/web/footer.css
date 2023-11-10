@@ -1,0 +1,33 @@
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logo-img {
+    width: 70px;
+    border-radius: 50%;
+}
+
+.footer__social-link {
+    margin-right: 4px;
+}
+
+.footer__social-icon {
+    font-size: 26px;
+    color: #666;
+    margin-right: 4px;
+}
+
+.footer__service-heading,
+.footer__support-heading,
+.footer__myaccount-heading {
+    padding: 10px 0;
+}
+
+.footer__service-link,
+.footer__support-link,
+.footer__myaccount-link {
+    display: block;
+    margin: 10px 0;
+    color: #333;
+}

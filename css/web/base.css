@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    background-color: #C92127;
+    width: 200px;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 8px 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    padding: 4px 0;
+    color: #555555;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+.input {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    margin: 4px 0;
+    font-size: 17px;
+    color: #495057;
+}
+
+.input:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+.input::placeholder {
+    color: #ced4da;
+    font-size: 15px;
+}
+
+.back-to-manager-product {
+    margin-top: 10px;
+}

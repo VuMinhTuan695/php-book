@@ -1,0 +1,204 @@
+.app {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+span {
+    font-weight: bold;
+}
+
+span + span {
+    margin-left: 4px;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.cart__empty {
+    text-align: center;
+    padding: 40px 0;
+    border-radius: 9px;
+}
+
+.cart__img-empty {
+    width: auto;
+    height: 162px;
+}
+
+.cart__empty-description {
+    font-size: 14px;
+    margin: 20px 0;
+    color: #333;
+}
+
+.cart-product {
+    margin: 10px 0 20px 0;
+}
+
+.cart-product__heading {
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+.cart__table-products {
+    width: 100%;
+    border: 1px solid #c1c1c1;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.cart__heading {
+    display: flex;
+}
+
+.cart__heading-product {
+    flex-basis: 70%;
+}
+
+.cart__heading-qtt,
+.cart__heading-points-to-money,
+.cart__heading-action {
+    flex-basis: 10%;
+}
+
+.cart__product-item {
+    display: flex;
+    padding: 20px;
+}
+
+.cart__product-item + .cart__product-item {
+    border-top: 1px solid #e2e2e2;
+}
+
+.cart__product-infor {
+    display: flex;
+    flex-basis: 70%;
+}
+
+.cart__product-image {
+    display: flex;
+    align-items: center;
+}
+
+.cart__product-img {
+    width: 140px;
+}
+
+.cart__product-content {
+    margin: 0 10px
+}
+
+.cart__product-name {
+    min-height: 110px;
+    padding: 0 20px 20px 0;
+}
+
+.cart__product-price {
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.cart__product-qtt,
+.cart__points-to-money,
+.cart__action-user {
+    flex-basis: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart__order-number {
+    border: 1px solid #c1c1c1;
+    border-radius: 4px;
+    height: 30px;
+    padding: 0 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart__btn-decrease-qtt {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #888;
+}
+
+.cart__input-qtt {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #0D0E0F;
+    font-weight: 700;
+    font-size: 14px;
+    width: 44px;
+    text-align: center;
+}
+
+.cart__btn-increase-qtt {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #888;
+}
+
+.cart__points-to-money {
+    font-size: 18px;
+    color: #C92127;
+}
+
+.cart__btn-delete {
+    font-size: 20px;
+}
+
+.cart__pay {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cart__content-pay {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    margin: 10px 0;
+}
+
+.cart__title-pay {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cart__money-total {
+    font-size: 26px;
+    font-weight: bold;
+    color: #C92127;
+}
+
+.cart__money-total-span {
+    font-size: 24px;
+    color: #C92127;
+}
+
+.cart__header {
+    margin: 30px 0 30px 0;
+}
+
+.cart__form {
+    text-align: center;
+    width: 400px;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 1px solid #c1c1c1;
+    padding: 10px;
+}
+
+.cart__group + .cart__group {
+    margin: 20px 0;
+}
